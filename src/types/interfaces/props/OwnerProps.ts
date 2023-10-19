@@ -1,4 +1,4 @@
-import { Pet } from "../model/Pet";
+import {Pet} from "../model/Pet";
 
 export interface OwnerProps {
     gender: string,

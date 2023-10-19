@@ -8,16 +8,11 @@ interface HttpMethods {
 
 export const useFetch = () : HttpMethods => {
 
-    async function get(
-        url: string
+  async function get(
+        url: string,
     ) : Promise<any> {
-        try {
-            return await fetch(url);
-        }
-        catch (err) {
-            throw err;
-        }
-    }
+      return await fetch(url);
+  }
 
-    return  { get };
-}
+  return {get};
+};

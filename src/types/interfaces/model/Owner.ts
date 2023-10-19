@@ -1,4 +1,4 @@
-import { Pet } from "./Pet";
+import {Pet} from "./Pet";
 
 export interface Owner {
     age: number,
