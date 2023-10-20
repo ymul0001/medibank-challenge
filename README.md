@@ -2,7 +2,7 @@
 This Web app will render the cats name according to the owner's gender. 
 
 ## How to Use
-Simply click on "Reveal" and it will automatically reveal the list of cats to you.
+Simply click on "Reveal" and it will automatically reveal the list of cats to you. The website can be accessed here https://medibank-challenge-2.vercel.app/
 
 ## Available Scripts
 
@@ -32,6 +32,7 @@ Fix the code styles to follow the standards.
 - Material UI
 - Fetch API
 - React Hooks
+- Vercel
 
 ## Notable Design Pattern:
 - Facade Design Pattern
