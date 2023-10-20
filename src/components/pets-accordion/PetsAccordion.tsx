@@ -1,8 +1,8 @@
 import { Accordion, AccordionDetails, AccordionSummary, Typography } from "@mui/material";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import { FC } from "react"
+import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import { FC } from "react";
 import { OwnerProps } from "../../types/interfaces/props/OwnerProps";
-import './PetsAccordion.css';
+import "./PetsAccordion.css";
 
 const PetsAccordion: FC<OwnerProps> = ({...props})  => {
 
@@ -18,7 +18,7 @@ const PetsAccordion: FC<OwnerProps> = ({...props})  => {
                 id="panel1a-header"
                 sx={{
                     "& .MuiAccordionSummary-expandIconWrapper": {
-                      color: '#ffffff',
+                      color: "#ffffff",
                     }
                 }}
             >
@@ -34,7 +34,7 @@ const PetsAccordion: FC<OwnerProps> = ({...props})  => {
             )}
             </AccordionDetails>
         </Accordion>
-    )
-}
+    );
+};
 
 export default PetsAccordion;

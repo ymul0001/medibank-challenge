@@ -1,10 +1,10 @@
-import { useState } from 'react';
-import { useFetch } from '../../hooks/useFetch';
-import './HomePage.css';
-import { OwnerProps } from '../../types/interfaces/props/OwnerProps';
-import { Owner } from '../../types/interfaces/model/Owner';
-import PetsAccordion from '../../components/pets-accordion/PetsAccordion';
-import CircularProgress from '@mui/material/CircularProgress';
+import { useState } from "react";
+import { useFetch } from "../../hooks/useFetch";
+import "./HomePage.css";
+import { OwnerProps } from "../../types/interfaces/props/OwnerProps";
+import { Owner } from "../../types/interfaces/model/Owner";
+import PetsAccordion from "../../components/pets-accordion/PetsAccordion";
+import CircularProgress from "@mui/material/CircularProgress";
 
 export const HomePage = () => {
     const { get } = useFetch();
@@ -48,7 +48,7 @@ export const HomePage = () => {
         setCuratedOwners(oldData => [...oldData, ...result] );
         setIsRevealClicked(true);
         setIsLoading(false);
-    }
+    };
 
     return(
         <div className="placeholder">
@@ -76,6 +76,6 @@ export const HomePage = () => {
                 )}
             </div>
         </div>
-    )
+    );
     
-}
+};

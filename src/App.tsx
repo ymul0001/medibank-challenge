@@ -1,6 +1,6 @@
-import { FC } from 'react';
-import './App.css';
-import { HomePage } from './pages/home-page/HomePage';
+import { FC } from "react";
+import "./App.css";
+import { HomePage } from "./pages/home-page/HomePage";
 
 const App : FC = () => {
   return (
@@ -8,7 +8,7 @@ const App : FC = () => {
       <HomePage/>
     </div>
   );
-}
+};
 
 
 export default App;

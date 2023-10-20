@@ -14,5 +14,5 @@ export const useFetch = () : HttpMethods => {
       return await fetch(url);
   }
 
-  return {get};
+  return { get };
 };
